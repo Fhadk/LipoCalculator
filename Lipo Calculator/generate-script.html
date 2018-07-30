@@ -1,0 +1,31 @@
+<script type="text/javascript">
+	function generateWeightInPound(){
+		var output = "";
+		for (var i = 80; i <= 500; i++) {
+			output += '<option value="'+i+'"> '+i+' lbs</option>\n';
+		}
+		document.getElementById("result").innerHTML = output;
+	}
+	function generateHeightInMeters(){
+		var output = "";
+		for (var i = 48; i <= 84; i++) {
+			output += '<option value="'+Number(((i*0.0254)).toFixed(2))+'"> '+Number(((i*0.0254)).toFixed(2))+' met</option>\n';
+		}
+		document.getElementById("result").innerHTML = output;
+	}
+	function generateWeightInKg(){
+		var output = "";
+		for (var i = 80; i <= 500; i++) {
+			output += '<option value="'+Number(((i*0.454)).toFixed(2))+'"> '+Number(((i*0.454)).toFixed(2))+' kg</option>\n';
+		}
+		document.getElementById("result").innerHTML = output;
+	}
+</script>
+
+<button onclick="generateWeightInPound()">Weight In Pounds</button>
+
+<button onclick="generateHeightInMeters()">Height In Meters</button>
+
+<button onclick="generateWeightInKg()">Weight In KG</button>
+
+<p id="result"></p>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css"/>
+    <!--Import Style.css-->
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <link type="text/css" rel="stylesheet" href="css/drawer.css"/>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title> Resources - Lipo Calculator </title>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+    <style type="text/css">
+        .list{
+            text-align: left;
+            padding-left: 0px !important;
+            list-style: none;
+            list-style-position: outside;
+        }
+        .list > li:before{
+            content: '•';
+            color: #333;
+            margin-right: 10px;
+        }
+        .list > li{
+            margin-bottom: 10px;
+        }
+    </style>
+    
+</head>
+<body class="with-background">
+    <ul id="slide-out" class="side-nav drawer">
+        <img class="logo" src="images/logo.png"/>
+
+        <div class="options">
+            <div class="row">
+                <a href="terms-and-conditions.html">
+                    <div class="col s3">
+                        <img class="icon" src="images/home.png"/>
+                    </div>
+                    <div>
+                        <p>HOME</p>
+                    </div>
+                </a>
+            </div>
+            <hr>
+            <div class="row">
+                <a href="about-app.html">
+                    <div class="col s3">
+                        <img class="icon" src="images/about.png"/>
+                    </div>
+                    <div>
+                        <p>About</p>
+                    </div>
+                </a>
+            </div>
+            <hr>
+            <div class="row">
+                <a href="disclaimer.html">
+                    <div class="col s3">
+                        <img class="icon" src="images/info.png"/>
+                    </div>
+                    <div>
+                        <p>Disclaimer</p>
+                    </div>
+                </a>
+            </div>
+            <hr>
+            <div class="row">
+                <a href="resources.html">
+                    <div class="col s3">
+                        <img class="icon" src="images/resource-active.png"/>
+                    </div>
+                    <div>
+                        <p class="active">Resources</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </ul>
+
+    <div class="pre-nav">
+    </div>
+    
+    <nav>
+        <div class="row">
+            <div class="col s2">
+                <!--<a href="#"><img src="images/back-icon.png"/></a>-->
+            </div>
+            <div class="col s8">
+                <p> Resources </p>
+            </div>
+            <div class="col s2">
+                <a href="#" data-activates="slide-out" class="button-collapse"><img src="images/nav-toggle.png"/></a>
+            </div>
+        </div>
+    </nav>
+
+    <script type="text/javascript">
+        $('.button-collapse').sideNav({
+            menuWidth: 300, // Default is 300
+            edge: 'left', // Choose the horizontal origin
+            closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+            draggable: true // Choose whether you can drag to open on touch screens
+            }
+        );
+    </script>
+
+    <div id="main-content" class="with-background">
+        <div id="monogram-container" class="col s12">
+            <img id="monogram-text" src="images/monogram-text.png">
+        </div>
+        <div class="container">
+            <div id="description-content" class="col s12">
+
+                <h5 class="description-heading"> References </h5>
+                <p>
+                    Arcelus JI, Candocia S, Traverso CI, Fabrega F, Caprini JA, Hasty JH.  Venous thromboembolism prophylaxis and risk assessment in medical patients.<a href="https://url.serverdata.net/?aXn8Qdx-AH28FCIqlKEHB_OQypli0DCNokS5aEMDXJvKzSpykHnMxh18vKcUwYIOm9A_5dthT4MH5Cj8RckWxrg~~">  Semin Thromb Hemost</a>. 1991;17 Suppl 3:313-8.<br><br>
+Becker DE, Reed KL.  Local anesthetics: review of pharmacological considerations.<a href="https://url.serverdata.net/?aXn8Qdx-AH28FCIqlKEHB_OQypli0DCNokS5aEMDXJvKGgQYgb2cZTyePpirxkZ1iBKa-tl8c5gVA-ND4hORpGQ~~">
+Anesth Prog</a>. 2012 Summer;59(2):90-101; doi: 10.2344/0003-3006-59.2.90<br><br>
+Caprini JA, Arcelus JI, Hasty JH, Tamhane AC, Fabrega F.  Clinical assessment of venous thromboembolic risk in surgical patients.<a href="https://url.serverdata.net/?aXn8Qdx-AH28FCIqlKEHB_OQypli0DCNokS5aEMDXJvKYScGgt55e2ViHKr5diUn5eQigqReKRB48EvoeTncfYA~~">  Semin Thromb Hemost</a>. 1991;17 Suppl 3:304-12.<br><br>
+Choudry UH, Hyza P, Lane J, Petty P. The importance of preoperative hemoglobin evaluation in large volume liposuction: lessons learned from our 15-year experience. Ann Plast Surg. 2008 Sep. 61(3):230-4.<br><br>
+
+Chow I, Alghoul MS, Khavanin N, Hanwright PJ, Mayer KE, Hume KM, Murphy RX Jr, Gutowski KA, Kim JY.  Is There a Safe Lipoaspirate Volume? A Risk Assessment Model of Liposuction Volume as a Function of Body Mass Index.<a href="https://url.serverdata.net/?aXn8Qdx-AH28FCIqlKEHB_OQypli0DCNokS5aEMDXJvKlWcpKOjK0X60BE6bimQ6-g24WXwSCAXlAAOsCzeo8QA~~">  Plast Reconstr Surg</a>. 2015 Sep;136(3):474-83. doi: 10.1097/PRS.0000000000001498.<br><br>
+
+Commons GW, Halperin B, Chang CC. Large-volume liposuction: a review of 631 consecutive cases over 12 years. Plast Reconstr Surg. 2001 Nov. 108(6):1753-63; discussion 1764-7.<br><br>
+
+Gilliland MD, Commons GW, Halperin B. Safety issues in ultrasound-assisted large-volume lipoplasty. Clin Plast Surg. 1999 Apr. 26(2):317-35;<br><br>
+
+Illouz YG. History and current concepts of lipoplasty. Clin Plast Surg. 1996 Oct. 23(4):721-30.<br><br>
+
+Morales R Jr, Ruff E, Patronella C, Mentz H 3rd, Newall G, Hustak KL, Fortes P, Bush A.  Safety and Efficacy of Novel Oral Anticoagulants vs Low Molecular Weight Heparin for Thromboprophylaxis in Large-Volume Liposuction and Body Contouring Procedures.<a href="https://url.serverdata.net/?aXn8Qdx-AH28FCIqlKEHB_OQypli0DCNokS5aEMDXJvLgNIG95W2oFfaxjAHe1U8zQAV-xmq5hT0QczPoDMRtuw~~">  Aesthet Surg J</a>. 2016 Apr;36(4):440-9. doi: 10.1093/asj/sjv243.<br><br>
+
+Morales R Jr, Ruff E, Patronella C, Mentz H 3rd, Newall G, Hustak KL, Fortes P.  Response to "Concerns Regarding the Use of Oral Anticoagulants (Rivaroxaban and Apixaban) for Venous Thromboembolism Prophylaxis in Plastic Surgery Patients".<a href="https://url.serverdata.net/?aXn8Qdx-AH28FCIqlKEHB_OQypli0DCNokS5aEMDXJvKKcqXwffI0bDgo8vyDrVDpf974pu5Cs4QETVzBs3UrQA~~">  Aesthet Surg J</a>. 2016 Sep;36(8):NP265-8. doi: 10.1093/asj/sjw092.<br><br>
+
+Ozmen S, Kusza K, Ulusal BG, Pryor L, Siemionow M, Zins JE. Hemodynamic Changes and Fluid Shifts After Large-Volume Fluid Infiltration: Results From a Porcine Model. Ann Plast Surg. 2009 Oct 1.
+Pitman GH, Aker JS, Tripp ZD. Tumescent liposuction. A surgeon's perspective. Clin Plast Surg. 1996 Oct. 23(4):633-41; discussion 642-5.<br><br>
+
+Rohrich RJ, Beran SJ, Fodor PB. The role of subcutaneous infiltration in suction-assisted lipoplasty: a review. Plast Reconstr Surg. 1997 Feb. 99(2):514-9; discussion 520-6.<br><br>
+
+Rohrich RJ, Beran SJ, Kenkel JM, et al. Extending the role of liposuction in body contouring with ultrasound- assisted liposuction. Plast Reconstr Surg. 1998 Apr. 101(4):1090-102; discussion 1117-9<br><br>
+
+Rohrich RJ, Leedy JE, Swamy R, Brown SA, Coleman J.  Fluid resuscitation in liposuction: a retrospective review of 89 consecutive patients.<a href="https://url.serverdata.net/?aXn8Qdx-AH28FCIqlKEHB_OQypli0DCNokS5aEMDXJvILhje6qAii1L-hgEH8SaYcJGfhvMdmWKOJnq4f4vfU0g~~">  Plast Reconstr Surg</a>. 2006 Feb;117(2):431-5.<br><br>
+
+Saleh Y, El-Oteify M, Abd-El-Salam AE, Tohamy A, Abd-Elsayed AA. Safety and benefits of large-volume liposuction: a single center experience. Int Arch Med. 2009 Feb 2. 2(1):4. <a href="https://url.serverdata.net/?aPxPGFW4YglrmtO4vnDEQ2LJeteAPlFqeYa8voJK1Hkv4rpcVBh4P3AwvDABKFvfDAK4pOibmzjeachHjAdhdRg~~">[Medline]</a>, <a href="https://url.serverdata.net/?aeboLUM-wy0Mhv-0Av66r-ap9B7WurgE4EHcTFWLKF0oP1IwL24SpSI4YN_aDg6yMXJDv8J8QzGAB6D6a1OCbyA~~">[Full Text]</a>.<br><br>
+
+Swanson E.  Prospective study of lidocaine, bupivacaine, and epinephrine levels and blood loss in patients undergoing liposuction and abdominoplasty.  <a href="https://url.serverdata.net/?aXn8Qdx-AH28FCIqlKEHB_OQypli0DCNokS5aEMDXJvL5mDjmBxvG9FHP36d-lKy9Br289N-G54dRvAhjj4mmDw~~">Plast Reconstr Surg</a>. 2012 Sep;130(3):702-22. doi: 10.1097/PRS.0b013e31825dc408.<br><br>
+
+Swanson E. Is the Lipoaspirate Volume Linked to an Increased Risk of Complications after Liposuction?<a href="https://url.serverdata.net/?aXn8Qdx-AH28FCIqlKEHB_OQypli0DCNokS5aEMDXJvIOCOLY4qhSO0blQqnhsd2lzelWh4t4xxpJe12eqmiRmQ~~"> Plast Reconstr Surg</a>. 2016 Apr;137(4):754e-756e. doi: 10.1097/01.prs.0000481835.06127.0e.<br><br>
+
+Trott SA, Beran SJ, Rohrich RJ, Kenkel JM, Adams WP Jr, Klein KW.  Safety considerations and fluid resuscitation in liposuction: an analysis of 53 consecutive patients.<a href="https://url.serverdata.net/?aXn8Qdx-AH28FCIqlKEHB_OQypli0DCNokS5aEMDXJvI8mcCCc4cPc_zjYuVD8pFm5c9N9ljGs_lBHXO6iRiuTg~~">  Plast Reconstr Surg</a>. 1998 Nov;102(6):2220-9.<br><br>
+
+
+Valente DS, Padoin AV, Carvalho LA, Pereira Filho Gde A, Ribeiro VW, Zanella RK. Prospective and Bidirectional Cross-Sectional Associations between Body Mass Index and Physical Activity following Liposuction: A Cohort Study.<a href="https://url.serverdata.net/?aXn8Qdx-AH28FCIqlKEHB_OQypli0DCNokS5aEMDXJvJ8Q1fLELUMJ-FhCaCXlhRXKQ7_GLeaheVnJ5Gk97ti0g~~">  Plast Reconstr Surg</a>. 2016 Jul;138(1):48e-54e. doi: 10.1097/PRS.0000000000002253.<br><br>
+
+Updates and Advances in Liposuction Phillip J. Stephan, MD, FACS; and Jeffrey M. Kenkel, MD, FACSAesthetic Surgery Journal30(1) 83 -97(c) 2010 The American Society forAesthetic Plastic Surgery, Inc.Reprints and permission:<br>
+<a href="http://sagepub.com/journalsPermissions.navDOI">http://www .sagepub.com/journalsPermissions.navDOI</a><br> 
+<a href="http://1090820X10362728www.aestheticsurgeryjournal.com">10.1177/1090820X10362728www.aestheticsurgeryjournal.com</a><br>
+Plast Reconstr Surg. 2016 Apr;137(4):756e-758e. doi: 10.1097/01.prs.0000480035.97330.6b.<br><br>
+
+Reply: Is There a Safe Lipoaspirate Volume? A Risk Assessment Model of Liposuction Volume as a Function of Body Mass Index.<br><br>
+
+
+<a href="https://url.serverdata.net/?aXn8Qdx-AH28FCIqlKEHB_OQypli0DCNokS5aEMDXJvIACma97BTwh7e71RTO1USbVD6DHUTGNlY8o-BQVs36Bk5RDZQnD3Jf-A2m8K-xr8IHFIMImpA47LHoFjnweo6v">Chow I</a>, <a href="https://url.serverdata.net/?aXn8Qdx-AH28FCIqlKEHB_OQypli0DCNokS5aEMDXJvJQsCKuMxaHNaPm4ZwyedQpeW1KtLBJN04Taa0IMCl1IRUSVKOjlv3hSQvjI5ahbv8btiolywuGZyhgjPs-uGFp5_1B50y0dFmw9YTPw0VhdkJENwgrNhit1OEU4H1-A8c~">Alghoul MS</a>, <a href="https://url.serverdata.net/?aXn8Qdx-AH28FCIqlKEHB_OQypli0DCNokS5aEMDXJvLGgRGBwby-hkSZk17ILVwPCQGMVTWFe9YzbS-XGIEZnpa_-zCFCcXYIc13SAhbulvLCJ9miLJz4vdVGZOi7Q8w3EOUGJLCP5-Qa80eQnyOX_QN15Z-i0_cTPb-njWzS9Y~">Khavanin N</a>, <a href="https://url.serverdata.net/?aXn8Qdx-AH28FCIqlKEHB_OQypli0DCNokS5aEMDXJvIZMRew8ZK8nTOStCoTUvoLw17s90vVWWJGwvVaM8Il59eB9V0zAYl9_XkUEYPzExiZfNDetflfjka2J56NGyuD3BWlIZohJUVjOq-Z1oGxBGRZXSk-FrEnm3DPicH7ezE~">Hanwright PJ</a>, <a href="https://url.serverdata.net/?aXn8Qdx-AH28FCIqlKEHB_OQypli0DCNokS5aEMDXJvIycerKpgg0szr7qdf0iCVBZZDEFVBWVXWYDDVXrHxKARcCVY6T6wpeDkJt5NNkaTAXY9u5PC67pqSorib_xbqoGIzNid--SWr6eLYl17CpU15fy2QX1ZjQhUtcPRBloFY~">Mayer KE</a>, <a href="https://url.serverdata.net/?aXn8Qdx-AH28FCIqlKEHB_OQypli0DCNokS5aEMDXJvJe9k6ZjRQJqKppSTOmJjoanGbldTLArOK3I0wbDQFckuSUXkDYleGwwxotCTPqPhhWS-2BKmccTooUvzkHLFnQusYBa75uo1SG6j-ANgxwzyM9cpxiogfRDMYIcNdBl14~">Hume KM</a>, <a href="https://url.serverdata.net/?aXn8Qdx-AH28FCIqlKEHB_OQypli0DCNokS5aEMDXJvL7kb0qTXmoJ2EASG_DewfOvLnrpOjeSrUWs_sx03-do5Jxxmuz0fnFICctW-l75-vCQC7ztP6Vr8DXL6MILqVSKn9L_d0QvV-6A-Hh_ZRLby4nMSqEPtvalhIYImRkSIU~">Murphy RX Jr</a>, <a href="https://url.serverdata.net/?aXn8Qdx-AH28FCIqlKEHB_OQypli0DCNokS5aEMDXJvIGK5cfO6AYxEDA0WSAP2LMrtbIMyy3GbbAAoq0XLLNWBci7KqgIT2w1qO1osTpcSuXphe43jFL45S2q4zGkPLhjgPuluzy6hGmIVcmx12qQ5C7Gr-bC9LuIHlrJyF4bOw~">Gutowski KA</a>, <a href="https://url.serverdata.net/?aXn8Qdx-AH28FCIqlKEHB_OQypli0DCNokS5aEMDXJvITUb-O3HjsCsNrLI_LtLSm7NQ5hPe0mDQcfWttY8ogN84w6n19emqcdj3qKh-zMeKeX5eXpKDBAeGqJD67K-Zt">Kim JY</a>.<br><br>Is the Lipoaspirate Volume Linked to an Increased Risk of Complications after Liposuction? <a href="https://url.serverdata.net/?aXn8Qdx-AH28FCIqlKEHB_OQypli0DCNokS5aEMDXJvIOCOLY4qhSO0blQqnhsd2lzelWh4t4xxpJe12eqmiRmQ~~"> [Plast Reconstr Surg. 2016]</a>
+<br><br>
+<a href="https://dash.37signals.com/beanstalk/beacon.gif?return_receipt=RR/BC3/9a69c059f94487e063b1b1e58b272bbb">https://dash.37signals.com/beanstalk/beacon.gif?return_receipt=RR/BC3/9a69c059f94487e063b1b1e58b272bbb</a>
+
+                </p>
+                
+            </div>
+        </div>
+    </div>
+    <div id="fixed-footer" class="pic-bk">
+        <div class="row">
+            <div class="col s12">
+                <a href="mailto:lipocalculator@gmail.com" class="btn_next">Submit An Idea</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

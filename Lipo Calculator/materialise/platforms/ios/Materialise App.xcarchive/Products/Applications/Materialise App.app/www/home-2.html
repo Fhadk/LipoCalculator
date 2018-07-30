@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css"/>
+    <!--Import Style.css-->
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <link type="text/css" rel="stylesheet" href="css/drawer.css"/>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title> Home - Lipo Calculator </title>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    
+</head>
+<body class="with-background">
+    <ul id="slide-out" class="side-nav drawer">
+        <img class="logo" src="images/logo.png"/>
+
+        <div class="options">
+            <div class="row">
+                <div class="col s3">
+                    <img class="icon" src="images/home-active.png"/>
+                </div>
+                <div>
+                    <p class="active">HOME</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col s3">
+                    <img class="icon" src="images/about.png"/>
+                </div>
+                <div>
+                    <p>About</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col s3">
+                    <img class="icon" src="images/info.png"/>
+                </div>
+                <div>
+                    <p>Disclaimer</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col s3">
+                    <img class="icon" src="images/resource.png"/>
+                </div>
+                <div>
+                    <p>Resources</p>
+                </div>
+            </div>
+        </div>
+    </ul>
+
+    <div class="pre-nav">
+    </div>
+    
+    <nav>
+        <p>Home</p>>
+    </nav>
+
+    <script type="text/javascript">
+        $('.button-collapse').sideNav({
+            menuWidth: 300, // Default is 300
+            edge: 'left', // Choose the horizontal origin
+            closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+            draggable: true // Choose whether you can drag to open on touch screens
+            }
+        );
+    </script>
+
+    <div id="main-content" class="with-background">
+        <div id="monogram-container" class="col s12">
+            <img id="monogram-text" src="images/monogram-text.png">
+        </div>
+        <div class="container">
+            <div id="description-content" class="col s12">
+                <h5 class="description-heading"> Vivamus eu faucibus arcu curabitur sit amet odio tempus </h5>
+                <p>
+                    vestibulum erat eu, pretium tellus. Morbi dolor magna, mattis eu elementum vitae, tristique suscipit dui. Morbi vestibulum quam vitae massa iaculis, at aliquam velit dignissim. Maecenas vel augue dictum mauris rhoncus malesuada ac eu tortor. In in pulvinar justo. Cursus ligula at metus bibendum viverra.
+
+                    <br><br>
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris dictum lacus eget dignissim hendrerit. Pellentesque tristique ac lectus nec lobortis. Suspendisse potenti. Cras tincidunt posuere dictum. Mauris gravida id dolor vitae laoreet. Suspendisse a felis tortor. Suspendisse imperdiet orci sit amet mauris volutpat, eget semper neque commodo.
+
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <div id="fixed-footer" class="pic-bk">
+        <a href="patient-height-weight-bmi.html" class="btn_next">Start Survey</a>
+    </div>
+</body>
+</html>

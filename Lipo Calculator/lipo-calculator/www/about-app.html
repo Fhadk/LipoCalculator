@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!--Import Style.css-->
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <link type="text/css" rel="stylesheet" href="css/drawer.css"/>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title> About App - Lipo Calculator </title>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+    <style type="text/css">
+        #main-content{
+            margin-bottom: 0px;
+            padding-bottom: 80px;
+        }
+    </style>
+    
+</head>
+<body class="with-background">
+    <ul id="slide-out" class="side-nav drawer">
+        <img class="logo" src="images/logo.png"/>
+
+        <div class="options">
+            <div class="row">
+                <a href="terms-and-conditions.html">
+                    <div class="col s3">
+                        <img class="icon" src="images/home.png"/>
+                    </div>
+                    <div>
+                        <p>HOME</p>
+                    </div>
+                </a>
+            </div>
+            <hr>
+            <div class="row">
+                <a href="about-app.html">
+                    <div class="col s3">
+                        <img class="icon" src="images/about-active.png"/>
+                    </div>
+                    <div>
+                        <p class="active">About</p>
+                    </div>
+                </a>
+            </div>
+            <hr>
+            <div class="row">
+                <a href="disclaimer.html">
+                    <div class="col s3">
+                        <img class="icon" src="images/info.png"/>
+                    </div>
+                    <div>
+                        <p>Disclaimer</p>
+                    </div>
+                </a>
+            </div>
+            <hr>
+            <div class="row">
+                <a href="resources.html">
+                    <div class="col s3">
+                        <img class="icon" src="images/resource.png"/>
+                    </div>
+                    <div>
+                        <p>Resources</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </ul>
+
+    <div class="pre-nav">
+    </div>
+    
+    <nav>
+        <div class="row">
+            <div class="col s2">
+                <!--<a href="#"><img src="images/back-icon.png"/></a>-->
+            </div>
+            <div class="col s8">
+                <p> About Us </p>
+            </div>
+            <div class="col s2">
+                <a href="#" data-activates="slide-out" class="button-collapse"><img src="images/nav-toggle.png"/></a>
+            </div>
+        </div>
+    </nav>
+    <script type="text/javascript">
+        $('.button-collapse').sideNav({
+            menuWidth: 300, // Default is 300
+            edge: 'left', // Choose the horizontal origin
+            closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+            draggable: true // Choose whether you can drag to open on touch screens
+            }
+        );
+    </script>
+
+    <div id="main-content" class="with-background">
+        <div id="monogram-container" class="col s12">
+            <img id="monogram-text" src="images/monogram-text.png">
+        </div>
+        <div class="container">
+            <div id="description-content" class="col s12">
+                <h5 class="description-heading"> RISKS </h5>
+                <p>
+                    Lipocalculator Format*<br><br>
+
+For the Fat Aspirate:<br><br>
+
+Surgeon and Facility Experience<br>
+Full value for experience over 1000 cases<br>
+Reduced values by 20% for 100-999 cases<br>
+Reduced values by 40% for under 100 cases<br>
+Age of Patient<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Full value for ages 18-59<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reduced values by 5% for ages 60-74<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reduced values by 10% for ages above 75<br>
+Number of Liposuction Areas<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Full values for 1-7 areas<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reduced values by 10% for over 7 areas<br>
+Estimate Liposuction Fat Aspirate<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Full values for up to 5 liters<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reduced values for over 5 liters<br>
+Combined Procedures<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Full values for breast or facial surgery<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reduced values by 10% for abdominoplasty<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reduced values by 20% for body or thigh lift<br>
+BMI greater than 30, Reduce value by 10%<br>
+History of MI, Reduce value by 50%<br>
+History of CVA, Reduce value by 50%<br>
+History of DVT, PE, or Family History of Clotting, Reduce value by 10%<br>
+History of 3 or more lost pregnancies, Reduce value by 10%<br>
+History of recent surgery, <30 days, Reduce value by 10%<br>
+History of CHF or COPD, Reduce value by 50%<br>
+ASA > II, Reduce by 100%<br><br>
+
+Fat Aspirate Maximum utilizes the formula:<br>
+Calculation: =(0.05*(patient height in meters))*(patient weight in kg)*(1-(-patient adjusted % total/100))<br><br>
+
+
+
+ Anticoagulation Recommendations per Stephan and Kenkel and following Caprini Recommendations:
+PREVENTION AND TREATMENT OF VENOUS THROMBOEMBOLISM, International Consensus Statement, (Guidelines according to scientific evidence), Under the auspices of the Cardiovascular Disease Educational and Research Trust, Cyprus Cardiovascular Disease Educational and Research Trust, European Venous Forum, International Surgical Thrombosis Forum, International Union of Angiology and Union Internationale du Phlebologie.<br><br>
+
+Updates and Advances in LiposuctionPhillip J. Stephan, MD, FACS; and Jeffrey M. Kenkel, MD, FACSAesthetic Surgery Journal30(1) 83 -97(c) 2010 The American Society forAesthetic Plastic Surgery, Inc.<br><br>
+
+
+Fluid Restoration and Maintainence (based 4/2/1 anesthetic formula, first 10 Kg is 4 cc, second 10 Kg 2 cc and next Kg are 1 cc x hours npo, then that same amount ccs per hour of surgery), then using the formula of an additional 60 ccs per liter of fat aspirate over 5 liters.<br><br>
+
+Overnight Recommendations:<br>
+No references<br><br>
+
+Tumescent Formulations:<br>
+Hunsted formula<br>
+Lidocaine toxicity based on 35 mg/kg although some reports are higher<br><br>
+
+
+*Calculations are only suggestions and do not replace the advice and recommendation of each doctor and individual patient.<br>
+
+
+                </p>
+
+                <h5 class="description-heading">RISKS OF LIPOSUCTION SURGERY</h5>
+                <p>
+                    Every surgical procedure involves a certain amount of risk and it is important that you understand these risks and the possible complications associated with them. In addition, every procedure has limitations. An individual’s choice to undergo a surgical procedure is based on the comparison of the risk to potential benefit. Although the majority of patients do not experience these complications, you should discuss each of them with your plastic surgeon to make sure you completely understand all possible consequences of liposuction.
+                </p>
+
+                <h5 class="description-heading">PATIENT SELECTION</h5>
+                <p>
+                    Individuals with poor skin tone, medical problems, obesity, or unrealistic expectations may not be candidates for liposuction.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
